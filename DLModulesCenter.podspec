@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DLModulesCenter"
-s.version      = "0.0.0"
+s.version      = "0.0.1"
   s.summary      = "DLModulesCenter"
   s.description  = <<-DESC
 	                    React description.
@@ -25,7 +25,7 @@ s.version      = "0.0.0"
 
 # s.framework = 'SystemConfiguration'
  s.preserve_paths = 'Release'
- s.ios.vendored_libraries = 'Release/DLModulesCenter.a'
+ s.ios.vendored_libraries = 'Release/libDLModulesCenter.a'
 					         
 # s.library = 'c++'
 
