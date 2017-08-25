@@ -34,7 +34,7 @@
     DLModulesManager *modulesManager = [self sharedInstance];
     
     if (moduleID && className) {
-        [modulesManager.registerModules setObject:[moduleID description] forKey:[className description]];
+        [modulesManager.registerModules setObject:[className description] forKey:[moduleID description]];
     }
     
 }
