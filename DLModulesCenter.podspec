@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DLModulesCenter"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
   s.summary      = "DLModulesCenter"
   s.description  = <<-DESC
 	                    React description.
