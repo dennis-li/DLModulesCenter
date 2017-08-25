@@ -61,3 +61,16 @@
 }
 
 @end
+
+@implementation DLModuleCallbackData
+
+
+
+@end
+
+@implementation DLModuleParameter
+
+
+
+@end
+
