@@ -41,7 +41,7 @@
 
 + (void) openModuleWithParams:(DLModuleParameter *)params
 {
-    NSString *moduleID = [params.originalParams objectForKey:DLModuleMainSeviceID];
+    NSString *moduleID = [params.originalParams objectForKey:MODULE_MAIN_SERVICE_ID];
     
     if (moduleID != nil) {
         

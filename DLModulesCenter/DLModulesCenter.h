@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define DLModuleMainSeviceID @"DLModuleMainSeviceID"
+#define MODULE_MAIN_SERVICE_ID @"MODULE_MAIN_SERVICE_ID"
 
 @class DLModuleCallbackData;
 @class DLModuleParameter;
