@@ -63,6 +63,7 @@ niceMessage "${podName} oldVersion = $version, newVersion = $newVersion"
 
 #替换新的版本号
 sed -i "s/$versionLine/s.version      = \"$newVersion\"/g" ./${podName}.podspec
+verifyOperation "请检查sed版本"
 rm ./${podName}.podspec\ 
 
 #验证podspec
