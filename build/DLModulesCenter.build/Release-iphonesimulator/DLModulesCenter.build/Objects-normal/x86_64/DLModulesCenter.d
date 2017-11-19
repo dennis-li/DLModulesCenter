@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/iqiyi/Downloads/Develop/Developer/Projects/Product/ModuleCenterDevelop/DLModulesCenter/DLModulesCenter/DLModulesCenter.m \
-  /Users/iqiyi/Downloads/Develop/Developer/Projects/Product/ModuleCenterDevelop/DLModulesCenter/DLModulesCenter/DLModulesCenter.h
+  /Users/lixu/Developer/All_IOS/SocialContactDevelop/ModelesCenter/DLModulesCenter/DLModulesCenter/DLModulesCenter.m \
+  /Users/lixu/Developer/All_IOS/SocialContactDevelop/ModelesCenter/DLModulesCenter/DLModulesCenter/DLModulesCenter.h
