@@ -46,13 +46,12 @@ createNewVersion()
     echo $newVersion$suffix
 }
 
-./buildDLModulesCenter.sh
+#./buildDLModulesCenter.sh
 verifyOperation 
 
 podName="DLModulesCenter"
 
 #提取代码版本所在行
-git pull origin master
 versionLine=`cat ${podName}.podspec |grep -E 's.version(.*)='`
 
 #提取当前版本号
@@ -63,7 +62,7 @@ newVersion=`createNewVersion $version`
 niceMessage "${podName} oldVersion = $version, newVersion = $newVersion"
 
 #替换新的版本号
-sed -i ' ' "s/$versionLine/s.version      = \"$newVersion\"/g" ./${podName}.podspec
+sed -i "s/$versionLine/s.version      = \"$newVersion\"/g" ./${podName}.podspec
 rm ./${podName}.podspec\ 
 
 #验证podspec
@@ -74,7 +73,7 @@ verifyOperation "${podName} pod lib lint 出错！请检查podspec！！"
 git add .
 git commit -m "auto create new branch"
 git tag -a $newVersion -m  "${podName} v$newVersion"
-git push origin master
+git push 
 verifyOperation "${podName}创建新的tag => $newVersion 失败!!!"
 git push origin $newVersion
 verifyOperation "${podName}创建新的tag => $newVersion 失败!!!"
