@@ -27,7 +27,7 @@
 
 
 
-/**************************注册制调度中心************************************/
+/***************************注册制调度中心************************************/
 @interface DLModulesManager : NSObject
 
 + (void) registerByModuleID:(NSString *) moduleID className:(NSString *) className;
