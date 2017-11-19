@@ -13,7 +13,7 @@ s.version      = "0.0.6"
   s.author       = { "Dennis Lee" => "lixu.dennislee@gmail.com" }
 
   s.platform     = :ios
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
 
   s.source       = { :git => "https://github.com/dennis-li/DLModulesCenter.git", :tag => s.version }
 
